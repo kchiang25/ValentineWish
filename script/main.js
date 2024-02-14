@@ -132,6 +132,7 @@ const animationTimeline = () => {
       0.7,
       {
         rotation: 90,
+        color: "#ff69b4",
         x: 8,
       },
       "+=0.4"
@@ -152,7 +153,6 @@ const animationTimeline = () => {
         scale: 3,
         opacity: 0,
         rotation: 15,
-        color: "#ff69b4",
         ease: Expo.easeOut,
       },
       0.2
